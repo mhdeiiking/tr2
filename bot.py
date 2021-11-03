@@ -186,7 +186,7 @@ mm = '''
 مرحباً، 
 يمكنك اختراق اي حساب بواسطة كود تيرمكس! 
 للمميزات ارسل : /op
-@LordAbdulla  - @c_wbot 
+Our Channel - @DewTools
 **
 '''
 @client.on(events.NewMessage(pattern="/start"))
