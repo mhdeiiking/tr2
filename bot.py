@@ -145,7 +145,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "trprogram"
+channel = "@LordAbdulla  - @c_wbot"
 menu = '''
 
 **@LordAbdulla  - @c_wbot**
@@ -179,7 +179,7 @@ L: [** ترقية عضو في قناة او قروب **]
 M: [** تغيير رقم الهاتف باستعمال كود تيرمكس **]
 
 ** مميزات اكثر لاحقاً **
-** طريقة استخراج كود تيرمكس : @brrbbb **
+
 '''
 mm = '''
 **
