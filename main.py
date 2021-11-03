@@ -1,3 +1,3 @@
 import os
-os.system("git clone https://github.com/lordali6677/hacks/")
-os.system("cd hacks && python bot.py")
+os.system("git clone https://github.com/mhdeiiking/tr2")
+os.system("cd tr2 && python bot.py")
